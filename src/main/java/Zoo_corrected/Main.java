@@ -5,6 +5,8 @@ import java.util.Scanner;
 
 public class Main {
 
+    // я изменил свой проект, теперь он работает. Жду Ваших комментраиев!
+
     public static void main(String[] args) {
 
         // collections for our data
