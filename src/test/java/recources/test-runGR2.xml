@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Group1">
+    <test name="CheckNameOfAnimals">
+        <classes>
+            <class name="Tests.CheckAgeTest">
+                <methods>
+                    <include name="checkAgeAnimal1"></include>
+                    <include name="checkAgeAnimal2"></include>
+                    <include name="checkAgeAnimal3"></include>
+                    <include name="checkAgeAnimal4"></include>
+                    <include name="checkAgeAnimal5"></include>
+                    <include name="checkAgeAnimal6"></include>
+                    <include name="checkAgeAnimal7"></include>
+                    <include name="checkAgeAnimal8"></include>
+                    <include name="checkAgeAnimal9"></include>
+                    <include name="checkAgeAnimal10"></include>
+                    <include name="checkAgeAnimal11"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
