@@ -7,23 +7,23 @@ public class Fish extends Animal {
     }
 
     @Override
-    public void animalBreathes() {
-        System.out.println("I can breathe underwater");
+    public String animalBreathes() {
+        return  "I can breathe underwater";
     }
 
     @Override
-    public void animalMoves() {
-        System.out.println("I can swim underwater");
+    public String animalMoves() {
+        return "I can swim underwater";
     }
 
     @Override
-    public void animalSleeping() {
-        System.out.println("I only sleep at night");
+    public String animalSleeping() {
+        return "I only sleep at night";
     }
 
     @Override
-    public void animalEating() {
-        System.out.println("I like to eat worms");
+    public String animalEating() {
+        return "I like to eat worms";
     }
 
     // this is methods of class
