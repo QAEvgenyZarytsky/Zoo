@@ -6,7 +6,6 @@ public class Animal implements GeneralProperties{
 
     protected String name;
 
-    protected String nameForInfo = name;
     protected double age;
 
     protected double weight;
@@ -33,6 +32,7 @@ public class Animal implements GeneralProperties{
         this.age = age;
     }
     public void setWeight(Double weight) {
+
         this.weight = weight;
     }
 
@@ -47,46 +47,29 @@ public class Animal implements GeneralProperties{
         return weight;
     }
 
-    public void getNameForInfo() {
-        System.out.println("My name: " + nameForInfo);
-    }
-
-
-    // information about animal
-
-//    public  String infoAboutAnimal() {
-//        System.out.println("Hello my friend!\n");
-//        getName();
-//        getAge();
-//        getWeight();
-//        System.out.println();
-//        return getName();
-//
-//    }
-
     // below methods
 
 
     @Override
-    public void animalBreathes() {
+    public String animalBreathes() {
         // nothing yet
-        System.out.println("nothing yet");
+        return "nothing yet";
     }
 
     @Override
-    public void animalMoves() {
+    public String animalMoves() {
         // nothing yet
-        System.out.println("nothing yet");
+        return "nothing yet";
     }
 
-    public void animalSleeping(){
+    public String animalSleeping(){
         // nothing yet
-        System.out.println("nothing yet");
+        return "nothing yet";
     }
 
-    public void animalEating() {
+    public String animalEating() {
         // nothing yet
-        System.out.println("nothing yet");
+        return "nothing yet";
     }
 
 

@@ -9,23 +9,23 @@ public class Beast extends Animal {
 
 
     @Override
-    public void animalBreathes() {
-        System.out.println("I can breathe");
+    public String animalBreathes() {
+        return  "I can breathe";
     }
 
     @Override
-    public void animalMoves() {
-        System.out.println("I can run fast on the ground");
+    public String animalMoves() {
+        return "I can run fast on the ground";
     }
 
     @Override
-    public void animalSleeping() {
-        System.out.println("I like sleeping after eat");
+    public String animalSleeping() {
+        return "I like sleeping after eat";
     }
 
     @Override
-    public void animalEating() {
-        System.out.println("I like eating");
+    public String animalEating() {
+        return "I like eating";
     }
 
     // the methods this class

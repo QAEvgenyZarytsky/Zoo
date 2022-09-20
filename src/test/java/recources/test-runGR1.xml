@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Group1">
+    <test name="CheckNameOfAnimals">
+        <classes>
+            <class name="Tests.CheckNameTest">
+                <methods>
+                    <include name="checkNameAnimal1"></include>
+                    <include name="checkNameAnimal2"></include>
+                    <include name="checkNameAnimal3"></include>
+                    <include name="checkNameAnimal4"></include>
+                    <include name="checkNameAnimal5"></include>
+                    <include name="checkNameAnimal6"></include>
+                    <include name="checkNameAnimal7"></include>
+                    <include name="checkNameAnimal8"></include>
+                    <include name="checkNameAnimal9"></include>
+                    <include name="checkNameAnimal10"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
